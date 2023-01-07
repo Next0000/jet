@@ -1,0 +1,43 @@
+/*homeのcss*/
+h2 {
+    font-size: 1.5vw;
+    font-weight: lighter;
+    letter-spacing: 0.5vw;
+    margin: 0;
+}
+
+.main{
+height: auto;
+}
+.main h2{
+    margin: auto;
+}
+.core{
+    letter-spacing: 0; 
+    font-size:1vw;
+}
+
+.br{
+    display: none;
+}
+
+
+@media screen and (max-width: 960px){
+    h2 {
+        font-size: 6vw;
+        font-weight: lighter;
+        letter-spacing: 1vw;
+        margin: 0;
+    }
+    .core{
+        font-size:4vw;
+    }
+    .main h2{
+        margin-bottom: 5vw;
+    }
+
+    .br{
+        letter-spacing: 0.5vw;
+        display: block;
+    }
+}

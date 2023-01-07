@@ -1,0 +1,41 @@
+body{
+    background-color: #333333;
+}
+p{
+    margin: 10px auto;
+}
+a,h1,p{
+    color: white;
+}
+header,footer{
+    background-color: #333333;
+}
+.bottom ul{
+    justify-content:center;
+}
+.bottom ul li{
+    margin: 0 1vw;
+}
+.main{
+    width: 70vw;
+    height: 30vw;
+    border: solid 1px;
+}
+.pass{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+@media screen and (max-width: 960px){
+    .main{
+        width: 80vw;
+        height: 60vw;
+    }
+    .mobile_layout{
+        display: none;
+    }
+}
