@@ -8,14 +8,15 @@ h2 {
     font-weight: lighter;
     letter-spacing: 0.5vw;
     margin: 0;
+    color: black;
 }
 .main{
+    width: 80vw; max-width: 1800px;
     justify-content:center;
     align-items: center;
     display: flex;
     padding: 1vw 0;
 }
-
 
 /*上下中央*/
 .center{
@@ -30,36 +31,36 @@ h2 {
     left: 50%;
     transform: translate(-50%, -50%)
 }
+/*下寄せ*/
+.btm{
+    position: absolute;
+    bottom: 0;
+}
 
 /*左要素*/
 .box1{
     text-align: left;
-    width: 18vw; max-width: 570px;
+    width: 25%;
     height: var(--main_height); max-height: var(--max_height);
 }
 .box1-1{
     position: relative;
     height: 30%;
 }
-.box1-1 h2{
-    position: absolute;
-    bottom: 0;
-}
 .box1-2{
     position: relative;
     height: 70%;
 }
 .box1-2 ul{
-    position: absolute;
-    bottom: 0;
     display: flex;
     align-items:flex-end;
-    height: 75%;
+    width: 80%;
+    height: 80%;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 .box1-2 ul::before{
-    font-size: .5vw;
+    font-size: 0.6vw;
     content: ">>>Book Works";
     height: 1vw;
     position:absolute;
@@ -68,12 +69,12 @@ h2 {
 }
 .box1-2 ul::after {
     content: "";
-    width: 5.7vw; max-height: 100px;
+    width: 26%;
 }
 .box1-2 li{
     position: relative;
-    width: 5.7vw; max-height: 107px;
-    height: 5vw; max-height: 100px;
+    width: 26%;
+    height: 26%;
     margin-top: 1vw;
 }
 .box1-2 li img{
@@ -85,15 +86,13 @@ h2 {
 /*中央要素*/
 .box2{
     position: relative;
-    width: 35vw; max-width: 850px;
+    width: 40%;
     height: var(--main_height); max-height: var(--max_height);
 }
 .box2-1{
-    position: absolute;
-    width: 29vw; max-width: 630px;
+    width: 80%;
     height: 32vw; max-height: 700px;
-    padding: 0 2vw 0 4vw;
-    bottom: 0;
+    padding-right: 5%;
     right: 0;
     display: block;
 }
@@ -107,7 +106,7 @@ h2 {
 /*右要素*/
 .box3{
     height: var(--main_height); max-height: var(--max_height);
-    width: 18vw;
+    width: 25%;
     text-align: left;
 }
 
@@ -119,9 +118,14 @@ h2 {
     position: relative;
     height: 30%;
 }
+.box3-1 div{
+    position: absolute;
+    bottom: 0;
+}
+
+/*中央要素*/
 .box3-2{
     position: relative;
-    display: table;
     height: 30%;
 }
 /*文字詰め*/
@@ -137,6 +141,8 @@ h2 {
     text-justify: inter-ideograph;
     text-align-last: justify;
 }
+
+/*右要素*/
 .box3-3{
     position: relative;
     margin-top: auto;
@@ -148,8 +154,6 @@ h2 {
     display: block;
 }
 .box3-3-1{
-    position: absolute;
-    bottom: 0;
     height: 85%;
     width: 100%;
 }
@@ -173,8 +177,16 @@ h2 {
 @media screen and (max-width: 960px){
     .main{
         display: block;
-        padding: 5vw;
+        margin: 5vw;
         width: 90vw;
+    }
+    .btm{
+        width: 100%;
+        bottom: auto;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
     }
     h2{
         font-size: 5vw;
@@ -271,7 +283,7 @@ h2 {
         font-size: 2vw;
     }
     .item-pic{
-        height: 50vw;
+        height: 35vw;
         background-color: white;
     }
     .item-pic img{

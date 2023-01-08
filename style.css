@@ -1,19 +1,24 @@
 /*homeのcss*/
 h2 {
     font-size: 1.5vw;
-    font-weight: lighter;
+    font-weight: 100;
     letter-spacing: 0.5vw;
-    margin: 0;
+    margin: auto;
+    color: black;
 }
 
 .main{
-height: auto;
+    height: auto;
 }
-.main h2{
-    margin: auto;
+.be{
+    color: dimgray;
+}
+.be:hover{
+    color: black;
 }
 .core{
-    letter-spacing: 0; 
+    color: dimgray;
+    letter-spacing: 0.1vw; 
     font-size:1vw;
 }
 
@@ -25,15 +30,15 @@ height: auto;
 @media screen and (max-width: 960px){
     h2 {
         font-size: 6vw;
-        font-weight: lighter;
-        letter-spacing: 1vw;
-        margin: 0;
+        letter-spacing: 1.5vw;
+        margin-bottom: 10vw;
+    }
+    .with{
+        color: dimgray;
     }
     .core{
         font-size:4vw;
-    }
-    .main h2{
-        margin-bottom: 5vw;
+        letter-spacing: 0.5vw;
     }
 
     .br{
