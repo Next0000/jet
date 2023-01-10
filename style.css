@@ -1,14 +1,15 @@
 /*homeのcss*/
 h2 {
     font-size: 1.5vw;
-    font-weight: 100;
-    letter-spacing: 0.5vw;
+    font-weight:lighter;
+    letter-spacing: 0.6vw;
     margin: auto;
     color: black;
 }
 
 .main{
     height: auto;
+    font-family: ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, メイリオ, Meiryo, MS Pゴシック, MS PGothic, sans-serif;
 }
 .be{
     color: dimgray;

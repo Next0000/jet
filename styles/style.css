@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+  font-family: Lucida Sans, Lucida Grande, Lucida Sans Unicode, sans-serif;
   text-align: center;
   margin: 0;
   min-height: 100vh;
@@ -28,14 +28,15 @@ li,a{
   text-decoration: none;
   list-style: none;
   color: dimgray;
-  font-size: 0.6vw;
+  font-size:min(0.6vw,10px);
 }
 a:hover{
   color: burlywood;
 }
 p{
   margin: 0;
-  font-size: 0.6vw;
+  font-size:min(0.6vw,10px);
+  font-family: ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, メイリオ, Meiryo, MS Pゴシック, MS PGothic, sans-serif;
 }
 h1 {
   margin: 0;
@@ -86,7 +87,7 @@ header{
   color: brown;
   font-weight:bold;
   letter-spacing: 0.2vw;
-  left: 4vw;
+  left: 3.8vw;
   font-size: 1vw;
 }
 .title3{
