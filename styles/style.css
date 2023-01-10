@@ -28,14 +28,14 @@ li,a{
   text-decoration: none;
   list-style: none;
   color: dimgray;
-  font-size:min(0.6vw,10px);
+  font-size:max(0.6vw,10px);
 }
 a:hover{
   color: burlywood;
 }
 p{
   margin: 0;
-  font-size:min(0.6vw,10px);
+  font-size:max(0.6vw,10px);
   font-family: ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, メイリオ, Meiryo, MS Pゴシック, MS PGothic, sans-serif;
 }
 h1 {
